@@ -3,3 +3,6 @@ name = "HH-Parser"
 version = "0.1.0"
 description = "Простой асинхронный парсер вакансий с платформы [HeadHunter](https://hh.ru), написанный на Python."
 requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+]
