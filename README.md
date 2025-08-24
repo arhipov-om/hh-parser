@@ -32,7 +32,12 @@ cd hh-parser
 2. Установите зависимости через pip:
 
 ```bash
-python -m pip install .
+python -m pip install httpx
+```
+Или используя uv 
+
+```bash
+uv sync 
 ```
 
 > Проект требует Python >= 3.11.
